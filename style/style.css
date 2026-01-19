@@ -142,20 +142,130 @@ body {
 
 /* About Section */
 
-.about-content{
+.about-content {
     margin-top: 50px;
     margin-bottom: 80px;
+    text-align: center;
 }
 
-.about-heading{
+.about-heading {
     font-size: 3rem;
     font-weight: bold;
     color: white;
     margin-bottom: 16px;
 }
 
-.line-1{
+.line-1 {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+/* Rank section  */
+
+.rank {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.rank-header,
+.fa-star {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00FF88;
+}
+
+.fa-star {
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 12px;
+}
+
+.rank-description {
+    color: white;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+/* Tech-wave section */
+
+
+.tech-wave {
+    margin-top: 120px;
+    background-color: rgba(35, 14, 61, 1);
+    padding: 120px 200px;
+}
+
+.card-continer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "audio mobile mobile"
+        "audio global global"
+        "exclusive exclusive rich"
+    ;
+    gap: 30px;
+}
+
+.tech-heading {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tech-card{
+    padding: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 20px;
+}
+
+.tech-card img{
+    width: 60px;
+}
+
+.Audio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: audio;
+}
+
+.Mobile {
+    grid-area: mobile;
+}
+
+.Mobile img{
+    width: 50px;
+}
+
+.Global {
+    grid-area: global;
+}
+
+.Exclusive {
+    grid-area: exclusive;
+}
+
+.Rich {
+    grid-area: rich;
+}
+
+.tech-card img{
+    margin-bottom: 16px;
+}
+
+.card-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.card-description{
+    font-size: 1rem;
+    line-height: 24px;
+    color: white;
 }
 
