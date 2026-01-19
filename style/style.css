@@ -34,7 +34,8 @@ body {
     background-color: rgba(26, 11, 46, 1);
 }
 
-.width {
+.width,
+.about-section {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -94,9 +95,9 @@ body {
 
 .banner {
     height: 760px;
-    background-image: url(/assets/microphone.png) ,url(/assets/hero-circle.png), url(/assets/hero-bg.png);
-    background-position:center 180px ,center 115px, center center;
-    background-size:9% ,22%, 100%;
+    background-image: url(/assets/microphone.png), url(/assets/hero-circle.png), url(/assets/hero-bg.png);
+    background-position: center 180px, center 115px, center center;
+    background-size: 9%, 22%, 100%;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -138,3 +139,23 @@ body {
     padding: 12px 20px;
     border-radius: 30px;
 }
+
+/* About Section */
+
+.about-content{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.about-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.line-1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
