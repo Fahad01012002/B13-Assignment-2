@@ -96,7 +96,7 @@ body {
 
 .banner {
     height: 760px;
-    background-image: url(/assets/microphone.png), url(/assets/hero-circle.png), url(/assets/hero-bg.png);
+    background: url(assets/microphone.png), url(assets/hero-circle.png), url(assets/hero-bg.png);
     background-position: center 180px, center 115px, center center;
     background-size: 9%, 22%, 100%;
     background-repeat: no-repeat;
@@ -351,7 +351,7 @@ body {
 /* Footer section style */
 
 footer{
-    background-image: url(/assets/footer-bg.png);
+    background: url(assets/footer-bg.png);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
