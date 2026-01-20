@@ -96,7 +96,7 @@ body {
 
 .banner {
     height: 760px;
-    background: url(assets/microphone.png), url(assets/hero-circle.png), url(assets/hero-bg.png);
+    background-image: url(assets/microphone.png), url(assets/hero-circle.png), url(assets/hero-bg.png);
     background-position: center 180px, center 115px, center center;
     background-size: 9%, 22%, 100%;
     background-repeat: no-repeat;
