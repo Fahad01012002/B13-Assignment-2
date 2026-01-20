@@ -58,6 +58,7 @@ body {
 .logo {
     font-size: 4rem;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .gradient {
@@ -345,4 +346,39 @@ body {
     border: 1px solid rgba(109, 109, 109, 0.621);
     padding: 8px;
     border-radius: 20px;
+}
+
+/* Footer section style */
+
+footer{
+    background-image: url(/assets/footer-bg.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 120px;
+    text-align: center;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.link i{
+    color: white;
+}
+
+.link p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.copy-right{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
 }
