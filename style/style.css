@@ -148,7 +148,9 @@ body {
     text-align: center;
 }
 
-.about-heading {
+.about-heading,
+.feature-heading,
+.host-heading {
     font-size: 3rem;
     font-weight: bold;
     color: white;
@@ -256,7 +258,8 @@ body {
     margin-bottom: 16px;
 }
 
-.card-heading{
+.card-heading,
+.card-title{
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
@@ -269,3 +272,77 @@ body {
     color: white;
 }
 
+/* feature section style */
+
+.feature-heading{
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card{
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+}
+
+.feature-card{
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 15px;
+}
+
+.feature-card iframe{
+    border-radius: 15px 15px 0 0 ;
+}
+
+.card-content{
+    padding: 24px;
+}
+
+.time{
+    margin-top: 12px;
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+/* Host section style */
+
+.host{
+    margin-bottom: 120px;
+}
+
+.host-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.host-card{
+    border-radius: 25px;
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    gap: 24px;
+}
+
+.card-container{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p{
+    margin-bottom: 16px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button img{
+    border: 1px solid rgba(109, 109, 109, 0.621);
+    padding: 8px;
+    border-radius: 20px;
+}
